@@ -31,3 +31,11 @@
 
 en:
   hello: "Hello world"
+  app_title: "Ruby on Rails Tutorial Sample App"
+  static_pages:
+    home:
+      link: "Ruby on Rails Tutorial"
+      message_html: "This is the home page for the %{href} sample application."
+    help:
+      
+    about:
