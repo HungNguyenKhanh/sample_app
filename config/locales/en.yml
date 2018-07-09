@@ -73,6 +73,8 @@ en:
     index:
       page_title: "All users"
       delete: "delete"
+    show:
+      not_exist: "User is not exist"
     new:
       page_title: "Sign up"
       message: "This will be a signup page for new users."
@@ -83,20 +85,30 @@ en:
       header: "Edit your profile"
       save: "Save changes"
       change_avt: "change"
+    create:
+      error: "error"
+      error_msg: "The form contains %{errors}."
+      chk_mail: "Please check your email to activate your account."
     update:
       updated: "Profile updated"
     destroy:
       deleted: "User deleted"
-    create:
-      error: "error"
-      error_msg: "The form contains %{errors}."
-    show:
-      not_exist: "User is not exist"
   sessions:
     new:
       new_user_html: "New user? %{href}"
       remember_me: "Remember me on this computer"
     create:
+      chk_activate: "Account not activated. Check your email for the activation link."
       invalid: "Invalid email or password"
+  account_activations:
+    edit:
+      act_succ: "Account activated!"
+      act_fail: "Invalid activation link"
   footer:
     message_html: "The %{tut_ref} by %{aut_ref}"
+  mail:
+    acc_activation:
+      subject: "Account activation"
+      greet: "Hi %{usr},"
+      message: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate: "Activate"
