@@ -33,9 +33,14 @@ en:
   app_title: "Ruby on Rails Tutorial Sample App"
   app_name: "Sample App"
   author: "Michael Hartl"
+  tut_link: "Ruby on Rails Tutorial"
   news: "News"
   login: "Log in"
-  tut_link: "Ruby on Rails Tutorial"
+  logout: "Log out"
+  profile: "Profile"
+  settings: "Settings"
+  account: "Account"
+  users_link: "Users"
   static_pages:
     home:
       page_title: "Home"
@@ -71,5 +76,10 @@ en:
     create:
       error: "error"
       error_msg: "The form contains %{errors}."
+  sessions:
+    new:
+      new_user_html: "New user? %{href}"
+    create:
+      invalid: "Invalid email or password"
   footer:
     message_html: "The %{tut_ref} by %{aut_ref}"
