@@ -1,6 +1,7 @@
 class UsersController < ApplicationController
   before_action :logged_in_user, only: [:index, :edit, :update, :destroy]
-  before_action :get_user, only: [:show, :edit, :update, :destroy]
+  before_action :get_user, only: [:show, :edit, :update, :destroy, :following,
+    :followers]
   before_action :correct_user, only: [:edit, :update]
   before_action :admin_user, only: :destroy
 
@@ -48,14 +49,19 @@ class UsersController < ApplicationController
     redirect_to users_url
   end
 
-  private
-
-  def logged_in_user
-    return if logged_in?
-    store_location
-    flash[:danger] = t "login_req"
-    redirect_to login_url
+  def following
+    @title = t "users.relation.following"
+    @users = @user.following.paginate(page: params[:page])
+    render :show_follow
   end
+
+  def followers
+    @title = t "users.relation.followers"
+    @users = @user.followers.paginate(page: params[:page])
+    render :show_follow
+  end
+
+  private
 
   def get_user
     @user = User.find_by id: params[:id]

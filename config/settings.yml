@@ -23,3 +23,6 @@ micropost:
     LIMIT_HEIGHT: 400
     LIMIT_WIDTH: 400
     SIZE_MB: 5
+relation:
+  avatar:
+    SIZE: 30
