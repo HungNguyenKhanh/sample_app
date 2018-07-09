@@ -36,11 +36,13 @@ en:
   tut_link: "Ruby on Rails Tutorial"
   news: "News"
   login: "Log in"
+  login_req: "Please log in."
   logout: "Log out"
   profile: "Profile"
   settings: "Settings"
   account: "Account"
   users_link: "Users"
+  you_sure: "You sure?"
   static_pages:
     home:
       page_title: "Home"
@@ -68,19 +70,28 @@ en:
       message_html: "Contact the Ruby on Rails Tutorial about the sample app at the
       %{href}."
   users:
+    index:
+      page_title: "All users"
+      delete: "delete"
     new:
       page_title: "Sign up"
       message: "This will be a signup page for new users."
       confirm: "Confirmation"
       submit: "Create my account"
+    edit:
+      page_title: "Edit user"
+      header: "Edit your profile"
+      save: "Save changes"
+      change_avt: "change"
+    update:
+      updated: "Profile updated"
+    destroy:
+      deleted: "User deleted"
     create:
       error: "error"
       error_msg: "The form contains %{errors}."
     show:
       not_exist: "User is not exist"
-  sessions:
-    new:
-      new_user_html: "New user? %{href}"
   sessions:
     new:
       new_user_html: "New user? %{href}"
