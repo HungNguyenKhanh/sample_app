@@ -76,9 +76,15 @@ en:
     create:
       error: "error"
       error_msg: "The form contains %{errors}."
+    show:
+      not_exist: "User is not exist"
   sessions:
     new:
       new_user_html: "New user? %{href}"
+  sessions:
+    new:
+      new_user_html: "New user? %{href}"
+      remember_me: "Remember me on this computer"
     create:
       invalid: "Invalid email or password"
   footer:
