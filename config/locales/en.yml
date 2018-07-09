@@ -97,6 +97,7 @@ en:
     new:
       new_user_html: "New user? %{href}"
       remember_me: "Remember me on this computer"
+      forgot_password : "(forgot password)"
     create:
       chk_activate: "Account not activated. Check your email for the activation link."
       invalid: "Invalid email or password"
@@ -104,6 +105,21 @@ en:
     edit:
       act_succ: "Account activated!"
       act_fail: "Invalid activation link"
+  password_resets:
+    new:
+      page_title: "Forgot password"
+      submit: "Submit"
+    create:
+      mail_sent: "Email sent with password reset instructions"
+      not_found: "Email address not found"
+    edit:
+      page_title: "Reset password"
+      confirm: "Confirmation"
+      submit: "Update password"
+    update:
+      empty_err: "can't be empty"
+      reset: "Password has been reset."
+      expired: "Password reset has expired."
   footer:
     message_html: "The %{tut_ref} by %{aut_ref}"
   mail:
@@ -112,3 +128,10 @@ en:
       greet: "Hi %{usr},"
       message: "Welcome to the Sample App! Click on the link below to activate your account:"
       activate: "Activate"
+    pwd_reset:
+      subject: "Password reset"
+      message: "To reset your password click the link below:"
+      expire_note: "This link will expire in two hours."
+      ignore_note: "If you did not request your password to be reset, please ignore this email and
+      your password will stay as it is."
+      reset_link: "Reset password"

@@ -9,3 +9,5 @@ user:
     size: 80
 users_page:
   SIZE: 15
+password_reset:
+  EXPIRE_HOURS: 2 
