@@ -66,5 +66,10 @@ en:
     new:
       page_title: "Sign up"
       message: "This will be a signup page for new users."
+      confirm: "Confirmation"
+      submit: "Create my account"
+    create:
+      error: "error"
+      error_msg: "The form contains %{errors}."
   footer:
     message_html: "The %{tut_ref} by %{aut_ref}"
