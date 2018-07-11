@@ -30,12 +30,41 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
   app_title: "Ruby on Rails Tutorial Sample App"
+  app_name: "Sample App"
+  author: "Michael Hartl"
+  news: "News"
+  login: "Log in"
+  tut_link: "Ruby on Rails Tutorial"
   static_pages:
     home:
-      link: "Ruby on Rails Tutorial"
+      page_title: "Home"
+      hello: "Welcome to the Sample App"
       message_html: "This is the home page for the %{href} sample application."
+      sign_up: "Sign up now!"
     help:
-      
+      page_title: "Help"
+      help_link: "Rails Tutorial help section"
+      book_link: "Ruby on Rails Tutorial book"
+      message_html: "Get help on the Ruby on Rails Tutorial at the %{help}.
+      To get help on this sample app, see the %{book}."
     about:
+      page_title: "About"
+      rails_link: "Ruby on Rails Tutorial"
+      book_link: "book"
+      screencast_link: "screencast series"
+      ror_link: "Ruby on Rails"
+      message_html: "The %{rails_ref} is a %{book_ref} and %{screencast_ref}
+      to teach web development with %{ror_ref}.
+      This is the sample application for the tutorial."
+    contact:
+      page_title: "Contact"
+      contact_link: "contact page"
+      message_html: "Contact the Ruby on Rails Tutorial about the sample app at the
+      %{href}."
+  users:
+    new:
+      page_title: "Sign up"
+      message: "This will be a signup page for new users."
+  footer:
+    message_html: "The %{tut_ref} by %{aut_ref}"
