@@ -1,7 +1,9 @@
 user:
   name:
-    MAX_LENGTH: 5
+    MAX_LENGTH: 50
   email:
     MAX_LENGTH: 255
   password:
     MIN_LENGTH: 6
+  avatar:
+    size: 80
