@@ -7,3 +7,5 @@ user:
     MIN_LENGTH: 6
   avatar:
     size: 80
+users_page:
+  SIZE: 15
