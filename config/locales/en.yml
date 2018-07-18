@@ -96,6 +96,11 @@ en:
       updated: "Profile updated"
     destroy:
       deleted: "User deleted"
+    relation:
+      follow: "Follow"
+      unfollow: "Unfollow"
+      following: "Following"
+      followers: "Followers"
   sessions:
     new:
       new_user_html: "New user? %{href}"
