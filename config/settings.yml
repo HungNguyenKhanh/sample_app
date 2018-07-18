@@ -10,4 +10,16 @@ user:
 users_page:
   SIZE: 15
 password_reset:
-  EXPIRE_HOURS: 2 
+  EXPIRE_HOURS: 2
+micropost:
+  content:
+    MAX_LENGTH: 140
+  page:
+    SIZE: 10
+  avatar:
+    SIZE: 50
+  image:
+    EXT: "image/jpeg,image/gif,image/png"
+    LIMIT_HEIGHT: 400
+    LIMIT_WIDTH: 400
+    SIZE_MB: 5

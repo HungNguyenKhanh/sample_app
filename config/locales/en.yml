@@ -43,12 +43,14 @@ en:
   account: "Account"
   users_link: "Users"
   you_sure: "You sure?"
+  view_profile: "view my profile"
   static_pages:
     home:
       page_title: "Home"
       hello: "Welcome to the Sample App"
       message_html: "This is the home page for the %{href} sample application."
       sign_up: "Sign up now!"
+      feeds: "Micropost Feed"
     help:
       page_title: "Help"
       help_link: "Rails Tutorial help section"
@@ -75,6 +77,7 @@ en:
       delete: "delete"
     show:
       not_exist: "User is not exist"
+      microposts: "Microposts (%{num})"
     new:
       page_title: "Sign up"
       message: "This will be a signup page for new users."
@@ -120,6 +123,19 @@ en:
       empty_err: "can't be empty"
       reset: "Password has been reset."
       expired: "Password reset has expired."
+  microposts:
+    create:
+      success: "Micropost created!"
+    destroy:
+      success: "Micropost deleted"
+    form:
+      name: "micropost"
+      submit: "Post"
+      placeholder: "Compose new micropost..."
+      delete_link: "delete"
+      post_time: "Post %{time} ago"
+    errors:
+      oversize: "should be less than 5MB"
   footer:
     message_html: "The %{tut_ref} by %{aut_ref}"
   mail:
